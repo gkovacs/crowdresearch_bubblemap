@@ -18149,6 +18149,7 @@ var country_aliases = {
   "UK": "United Kingdom of Great Britain and Northern Ireland",
   "USA": "United States of America",
   "Venezuela": "Venezuela (Bolivarian Republic of)",
+  "Hong Kong": "China",
 }
 
 /*
