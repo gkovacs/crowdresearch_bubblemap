@@ -7,8 +7,7 @@ Install prerequisites
 ```
 git clone git@github.com:gkovacs/crowdresearch_choropleth.git
 cd crowdresearch_choropleth
-npm install -g yarn
-yarn global add webpack live-server
+npm install -g yarn webpack live-server
 yarn
 ```
 
