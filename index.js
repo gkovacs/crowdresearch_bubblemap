@@ -104,7 +104,7 @@ async function main() {
   console.log(data)
 
 Highcharts.theme = {
-   colors: ['#f45b5b', '#8085e9', '#8d4654', '#7798BF', '#aaeeee', '#ff0066', '#eeaaee',
+   colors: ['#2a4369', '#8085e9', '#8d4654', '#7798BF', '#aaeeee', '#ff0066', '#eeaaee',
       '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'],
    chart: {
       backgroundColor: null,
@@ -182,7 +182,7 @@ Highcharts.theme = {
    },
 
    // General
-   background2: '#E0E0E8'
+   background2: '#F5F5F5'
 
 };
 
@@ -218,7 +218,8 @@ Highcharts.setOptions(Highcharts.theme);
 
         series: [{
             name: 'Countries',
-            color: '#E0E0E0',
+            color: '#F5F5F5',
+            //nullColor: '#F5F5F5',
             enableMouseTracking: false
         }, {
             type: 'mapbubble',
