@@ -18213,7 +18213,7 @@ async function main() {
   console.log(data)
 
 Highcharts.theme = {
-   colors: ['#2a4369', '#8085e9', '#8d4654', '#7798BF', '#aaeeee', '#ff0066', '#eeaaee',
+   colors: ['#cf542b', '#8085e9', '#8d4654', '#7798BF', '#aaeeee', '#ff0066', '#eeaaee',
       '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'],
    chart: {
       backgroundColor: null,
@@ -18300,8 +18300,9 @@ Highcharts.setOptions(Highcharts.theme);
 
   Highcharts.mapChart('container', {
         chart: {
-            borderWidth: 1,
-            map: 'custom/world'
+            borderWidth: 0,
+            map: 'custom/world',
+            backgroundColor: 'white'
         },
         title: {
           text: ''
@@ -18328,7 +18329,7 @@ Highcharts.setOptions(Highcharts.theme);
         series: [{
             name: 'Countries',
             color: '#F5F5F5',
-            //nullColor: '#F5F5F5',
+            //nullColor: '#FFFFFF',
             enableMouseTracking: false
         }, {
             type: 'mapbubble',
