@@ -18347,6 +18347,17 @@ Highcharts.setOptions(Highcharts.theme);
 
 main()
 
+setTimeout(() => {
+  for (var x of $('path.highcharts-point')) {
+    if ($(x).hasClass('highcharts-color-0')) { // point
+      $(x).attr('fill', '#A23325')
+    } else { // country
+      $(x).attr('fill', '#EFEFF0')
+    }
+  }
+}, 3000)
+
+
 
 /***/ }),
 /* 21 */
